@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Trang Đăng Nhập - Đại học Chí Đức</title>
+  <style>
+    body {
+      font-family: Tahoma, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      padding: 10px 20px;
+    }
+
+    .logo-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .logo-img {
+      width: 150px;
+      height: 150px;
+    }
+
+    .text-block {
+      flex-grow: 1;
+    }
+
+    .text-block h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: midnightblue;
+    }
+
+    .text-block p {
+      font-size: 1.3em;
+      color: midnightblue;
+      margin: 5px 0 0 0;
+    }
+
+    .flag-icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .flag-icons img {
+      width: 30px;
+      height: 20px;
+    }
+
+    nav {
+      background-color: midnightblue;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      display: inline-block;
+    }
+
+    nav ul li a.active {
+      background-color: white;
+      color: midnightblue;
+      border-radius: 5px;
+    }
+
+    .login-container {
+      max-width: 400px;
+      margin: 30px auto;
+      padding: 30px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .login-container h2 {
+      text-align: center;
+      color: midnightblue;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+
+    .form-options {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+    }
+
+    .form-options input[type="checkbox"] {
+      margin-right: 5px;
+    }
+
+    .form-options a {
+      text-decoration: none;
+      color: midnightblue;
+    }
+
+    .form-submit {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .form-submit button {
+      padding: 10px 20px;
+      background-color: midnightblue;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: midnightblue;
+      color: #ccc;
+      padding: 20px 40px;
+      font-size: 0.95em;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-row">
+      <img src="logo.jpg" alt="Logo trường" width="150",Height="150" class="logo-img">
+      <div class="text-block">
+        <h1>TRƯỜNG ĐẠI HỌC CHÍ ĐỨC</h1>
+        <p>Kiến thức vững vàng - Đạo đức trọn vẹn</p>
+      </div>
+      <div class="flag-icons">
+      <img src="VN.png" alt="CỜ VIỆT NAM" width="150",Height="150">
+        <img src="UK.png" alt="CỜ ANH" width="150",Height="150">
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="ghttps://dangnhapp.w3spaces-preview.com/saved-from-Tryit-2025-07-01-c4hrw.html">Thông tin trường</a></li>
+      <li><a href="nganh.html">Ngành đào tạo</a></li>
+      <li><a href="xettuyen.html">Hình thức xét tuyển</a></li>
+      <li><a href="https://vplinhfggjjn.github.io/vpll/">Liên hệ hỗ trợ</a></li>
+      <li><a href="dangnhaphtml" class="active">Đăng nhập</a></li>
+    </ul>
+  </nav>
+
+  <div class="login-container">
+    <h2>ĐĂNG NHẬP</h2>
+    <form>
+      <div class="form-group">
+        <label for="email">Email sinh viên:</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Mật khẩu:</label>
+        <input type="password" id="password" required>
+      </div>
+      <div class="form-options">
+        <label><input type="checkbox"> Ghi nhớ mật khẩu</label>
+        <a href="#">Quên mật khẩu?</a>
+      </div>
+      <div class="form-submit">
+        <button type="submit">Đăng nhập</button>
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    <div class="footer-left">
+      Trụ sở chính: 70 Nguyễn Quang, P13, Q.Tân Bình, TPHCM
+    </div>
+    <div class="footer-right">
+      Hotline: 0912111822<br>
+      Email: edu@edu.vn
+    </div>
+  </footer>
+
+</body>
+</html>
