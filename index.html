@@ -198,6 +198,20 @@
         <button type="submit">Đăng nhập</button>
       </div>
     </form>
+    <script>
+      function validateForm() {
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+
+        if (email === "" || password === "") {
+          alert("Vui lòng điền đầy đủ thông tin.");
+          return false;
+    }
+
+        alert("Đăng nhập thành công!");
+        return true;
+  }
+</script>
   </div>
 
   <footer>
